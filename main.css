@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 0;
+    padding: 0;
+}
+
+.header-daaz{
+    width: 100%;
+}
+
+.header-daaz__color{
+    width: 100%;
+    height: 35px;
+    background:#11DCFF;
+
+}
+
+.img-principal{
+    width: 100%;
+    max-width: auto;
+}
+
+.conteudo__titulo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.conteudo__paragrafo{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
