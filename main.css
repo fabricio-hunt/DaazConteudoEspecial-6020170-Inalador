@@ -8,6 +8,7 @@ body{
 .main-container{
     margin: 0;
     padding: 0;
+    max-width: 612px;
 }
 
 .header-daaz{
@@ -18,7 +19,6 @@ body{
     width: 100%;
     height: 35px;
     background:#11DCFF;
-
 }
 
 .img-principal{
@@ -45,4 +45,13 @@ body{
 .swiper {
     width: 350px;
     height: auto;
+}
+
+
+
+@media screen and (min-width: 612px) {
+    .swiper {
+     width: 520px;
+     height: auto;
+}
 }
